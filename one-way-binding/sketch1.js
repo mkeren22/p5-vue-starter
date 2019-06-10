@@ -15,7 +15,7 @@ function sketch(parent) { // we pass the sketch data from the parent
     p.draw = function() {
       p.background(0);
       p.fill(255);
-      p.rect(parent.data.x, parent.data.y, 50, 50);
+      p.rect(200, 100, parent.data.x, parent.data.y);
     };
 
   };
